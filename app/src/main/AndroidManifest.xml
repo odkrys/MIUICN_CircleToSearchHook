@@ -14,10 +14,13 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Google Assistant 호출 LSPosed 모듈" />
+            android:value="Google Assistant Hooking LSPosed Module" />
         <meta-data
             android:name="xposedminversion"
             android:value="54" />
+        <meta-data
+            android:name="xposedscope"
+            android:value="android" />
     </application>
 
 </manifest>
